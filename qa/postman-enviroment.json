@@ -1,0 +1,14 @@
+{
+	"id": "62d2d9c7-b299-49cd-8cad-a017508a0d9a",
+	"name": "Golang Training",
+	"values": [
+		{
+			"key": "golang-training-url",
+			"value": "localhost:10000",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-04-18T10:13:09.705Z",
+	"_postman_exported_using": "Postman/8.2.3"
+}

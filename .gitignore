@@ -17,3 +17,5 @@
 /Godeps/
 
 node_modules/
+
+.env

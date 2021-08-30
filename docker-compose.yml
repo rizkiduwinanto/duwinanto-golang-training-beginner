@@ -1,0 +1,11 @@
+version: '3.7'
+services: 
+    postgres:
+        image: postgres:13.3-alpine
+        restart: always
+        env_file: 
+            - .env
+        volumes: 
+            - ./internal/postgres/migrations/docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+        ports:
+            - "5432:5432"
